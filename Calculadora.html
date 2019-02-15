@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link id="icon" rel="shorcut icon" href="icon.ico">
+</head>
+<script src="Calculadora.js"></script>
+<link rel="stylesheet" type="text/css" href="Calculadora.css">
+<body>
+	<h1>CALCULADORA</h1>
+	<table cellpadding="10px" id="table">
+		<tr id="fila1">
+			<td id="botgrisi" colspan="4" align=center ><input id="num"></td>	
+		</tr>
+		<tr id="fila2">
+			<td id="botgris"><button onclick="location.reload();">C</button></td>
+			<td id="botgris"><button>+/-</button></td>
+			<td id="botgris"><button>%</button></td>
+			<td id="botnar"><button id="nar" onclick="llamar('/')">/</button></td>
+		</tr>
+		<tr id="fila3">
+			<td id="botgris"><button id="numero" value="7" onclick="imp('7')">7</button></td>
+			<td id="botgris"><button id="numero" value="8" onclick="imp('8')">8</button></td>
+			<td id="botgris"><button id="numero" value="9" onclick="imp('9')">9</button></td>
+			<td id="botnar"><button id="nar" onclick="llamar('x')">x</button></td>
+		</tr>
+		<tr id="fila4">
+			<td id="botgris"><button id="numero" value="4" onclick="imp('4')">4</button></td>
+			<td id="botgris"><button id="numero" value="5" onclick="imp('5')">5</button></td>
+			<td id="botgris"><button id="numero" value="6" onclick="imp('6')">6</button></td>
+			<td id="botnar"><button id="nar" onclick="llamar('-')">-</button></td>
+		</tr>
+		<tr id="fila5">
+			<td id="botgris"><button id="numero" value="1" onclick="imp('1')">1</button></td>
+			<td id="botgris"><button id="numero" value="2" onclick="imp('2')">2</button></td>
+			<td id="botgris"><button id="numero" value="3" onclick="imp('3')">3</button></td>
+			<td id="botnar"><button id="nar" onclick="llamar('+')">+</button></td>
+		</tr>
+		<tr id="fila6">
+			<td id="botgriscero" colspan="2"><button class="button" id="numero" value="0" onclick="imp('0')">0</button></td>
+			<td id="botgris"><button>.</button></td>
+			<td id="botnar"><button id="nar" onclick="resultado()">=</button></td>
+		</tr>		
+	</table>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@font-face{
+	font-family: calculator;
+	src:url("Calculator.ttf");
+}
+h1{
+	text-align: center;
+	font-family: calculator;
+	font-size: 43px;
+}
+#icon{
+	border-radius: 100%;
+}
+table{
+	margin: 2px auto;
+	text-align: center;
+	background-color: black;}
+#fila1{
+	background-color: black;
+	border-color: none;
+}
+input, #botgrisi{
+	background-color: black;
+	border-style: none;
+	color: white;
+	text-align: right;
+	padding: 0;
+	font-family: "calculator";
+	font-size: 20px;
+
+}
+input{
+	width: 200px;
+	height: 25px;
+}
+#botgris{
+	background-color: gray;
+	border-style: none;
+	width: 53px;
+	height: 57px;
+	padding: 0;
+}
+#botnar{
+	background-color: #FF6200;
+	border-style: none;
+	width: 34px;
+	height: 25px;
+	padding: 0;
+}
+#nar:hover{
+	background-color: #FF7733;
+}
+#botgriscero{
+	background-color: #534D56;
+	border-style: none;
+	width: 108px;
+	height: 57px;
+	padding: 0;
+}
+#nada{
+	border-style: none;
+}
+.button{
+	background-color: #534D56;
+	border-style: none;
+	width: 108px;
+	height: 57px;
+	font-family: "calculator";
+	font-size: 20px;	
+}
+button{
+	background-color: #534D56;
+	border-style: none;
+	width: 53px;
+	height: 57px;
+	font-family: "calculator";
+	font-size: 20px;
+}
+button:hover{
+	background-color: #C0C5C1;
+}
+#nar{
+	background-color: orange;
+}
